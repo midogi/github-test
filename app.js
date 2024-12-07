@@ -9,9 +9,11 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello, World!\n');
 });
-
+//수정 됨
 server.listen(port, hostname, () => {
-  console.log(`Node JS Server is  running at http://${hostname}:${port}/`);
+  console.log(`Node JS go Server is reality running at http://${hostname}:${port}/`);
 });
+
+
 
 module.exports = server;
